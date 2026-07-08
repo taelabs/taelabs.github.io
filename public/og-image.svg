@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3dc8c"/>
+      <stop offset="0.5" stop-color="#e8b93a"/>
+      <stop offset="1" stop-color="#b87d17"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#d99e21" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0a0a0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#050505"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(96,240)">
+    <rect x="0" y="0" width="72" height="72" rx="18" fill="#131316" stroke="url(#gold)" stroke-opacity="0.4" stroke-width="1.5"/>
+    <g transform="translate(18,16)" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 0h18M11 0v18l-9 16a3 3 0 0 0 2.6 5h20.8a3 3 0 0 0 2.6-5L28 18V0"/>
+      <path d="M6 30h24"/>
+    </g>
+  </g>
+  <text x="192" y="292" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" fill="#f4f4f5">Tae <tspan fill="url(#gold)">Lab's</tspan></text>
+  <text x="98" y="380" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#a8a8b0">FiveM Scripts · UI Systems · Custom Development</text>
+  <text x="98" y="430" font-family="Consolas, monospace" font-size="20" fill="#76767f">ESX · QBCore · QBox · Lua · React · NUI</text>
+</svg>
